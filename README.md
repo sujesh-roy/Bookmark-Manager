@@ -12,10 +12,16 @@ So that I can keep a record of interesting websites,
 I'd like to view a list of bookmarks.
 ```
 
-### How To Run
+### How to Run
 
 ```
-rackup
+bundle exec rackup
 ```
 
 The application should then be running on http://localhost:9292
+
+### How to Run Tests
+
+```
+bundle exec guard --clear
+```
