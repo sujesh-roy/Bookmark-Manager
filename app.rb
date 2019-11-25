@@ -11,4 +11,8 @@ class BookmarkManager < Sinatra::Base
   get '/feature_test_env' do
     erb :feature_test_env
   end
+
+  get '/bookmarks' do
+    'Bookmarks'
+  end
 end
