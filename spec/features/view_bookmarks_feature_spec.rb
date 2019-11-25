@@ -3,6 +3,7 @@
 feature 'Bookmarks can be viewed' do
   scenario 'User visits /bookmarks to view bookmark list' do
     visit '/bookmarks'
-    expect(page).to have_content 'Bookmarks'
+    expect(page).to have_content 'Google'
+    expect(page).to have_content 'Bing'
   end
 end
