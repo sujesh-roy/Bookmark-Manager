@@ -5,5 +5,6 @@ feature 'Bookmarks can be viewed' do
     visit '/bookmarks'
     expect(page).to have_content 'Google'
     expect(page).to have_content 'Bing'
+    expect(page).to have_content 'Facebook'
   end
 end
